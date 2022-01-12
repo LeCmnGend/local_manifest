@@ -6,8 +6,7 @@ fetch="https://github.com/" />
 
   <!-- Device repos -->
 <project path="device/xiaomi/ginkgo" name="LeCmnGend/device_xiaomi_ginkgo" remote="gh" revision="11.0" clone-depth="1" />
-<project path="device/xiaomi/trinket-common" name="LeCmnGend/device_xiaomi_trinket-common" remote="gh" revision="11.0" clone-depth="1"/>
-<project path="kernel/xiaomi/ginkgo" name="LeCmnGend/kernel_xiaomi_ginkgo" remote="gh" revision="11.0" clone-depth="1"/>
+<!--project path="kernel/xiaomi/ginkgo" name="LeCmnGend/kernel_xiaomi_ginkgo" remote="gh" revision="11.0" clone-depth="1"/-->
 <project path="vendor/xiaomi/ginkgo" name="LeCmnGend/vendor_xiaomi_ginkgo" remote="gh" revision="11.0" clone-depth="1"/>
 <project path="vendor/xiaomi/trinket-common" name="LeCmnGend/vendor_xiaomi_trinket-common" remote="gh" revision="11.0" clone-depth="1"/>
 
@@ -15,8 +14,8 @@ fetch="https://github.com/" />
 <!--remove-project path="external/clang" name="platform/external/clang" groups="pdk" /-->
 <!--remove-project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" groups="pdk" clone-depth="1" /-->
 <remove-project path="prebuilts/clang/host/darwin-x86" name="platform/prebuilts/clang/host/darwin-x86" groups="pdk,darwin" clone-depth="1" />
-<remove-project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="pdk" clone-depth="1" />
-<remove-project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
+<!--remove-project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="pdk" clone-depth="1" /-->
+<!--remove-project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" /-->
  
    <!-- Remove darwin repos -->
  <remove-project path="prebuilts/gdb/darwin-x86" name="platform/prebuilts/gdb/darwin-x86" groups="darwin,pdk" clone-depth="1" />
